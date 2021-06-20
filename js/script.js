@@ -9,9 +9,9 @@ do {
   }
 
   if (secretNumber > userNumber) {
-    console.log(':( x >', userNumber);
+    console.log(':(try again x >', userNumber);
   }
   if (secretNumber < userNumber) {
-    console.log(' :( x <', userNumber);
+    console.log(' :( Go harder,baby x <', userNumber);
   }
 } while (secretNumber !== userNumber && !isNaN(userNumber));
