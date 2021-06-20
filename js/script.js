@@ -1,23 +1,17 @@
-// Переменная num может принимать 4 значения: 1, 2, 3 или 4. Если она имеет 
-// значение '1', то в переменную result запишем 'зима', если имеет значение 
-// '2' – 'весна' и так далее. Решите задачу через switch-case.
+const secretNumber = Math.round(Math.random() * 100 + 1);
+// console.log(secretNumber);
+let userNumber;
+do {
+  userNumber = Number.parseInt(prompt('Enter a number'));
+  //parseFloat вообще не к месту тут,но вообще есть, не забывай!
+  if (secretNumber === userNumber) {
+    console.log('Bingo! You rock!');
+  }
 
-// const num = prompt("введи число");
-// let result;
-
-// switch (+num) {
-//     case 1:
-//         result = "зима";
-//         break;
-//      case 2:
-//         result = "весна";
-//         break;
-//      case 3:
-//         result = "осень";
-//         break;
-//      case 4:
-//         result = "лето";
-//         break;
-//     default: result = "хз"    
-// }
-// console.log(result);
+  if (secretNumber > userNumber) {
+    console.log(':( x >', userNumber);
+  }
+  if (secretNumber < userNumber) {
+    console.log(' :( x <', userNumber);
+  }
+} while (secretNumber !== userNumber && !isNaN(userNumber));
