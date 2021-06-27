@@ -93,4 +93,55 @@
 //     array.push(arr[i] + arr[i + 1]);
 //   }
 //   return array;
+//
+import users from './data.js';
+// // Получить массив имен пользователей по полу (поле gender)
+// console.log(users);
+// const getUsersWithGender = (users, gender) => {
+//   return users.reduce((acc, user) => {
+//     if (user.gender === gender) {
+//       acc.push(user.name);
+//     }
+//     return acc;
+//   }, []);
 // };
+// console.log(getUsersWithGender(users, 'male')); // [ 'Moore Hensley', 'Ross Vazquez', 'Carey Barr', 'Blackburn Dotson' ]
+// const getUsersWithGender = (users, gender) => {
+//   return users.filter(user => user.gender === gender).map(user => user.name);
+// };
+// console.log(getUsersWithGender(users, 'male'));
+// Task 10
+
+// Получить массив всех умений всех пользователей (поле skills), при этом не должно быть
+// повторяющихся умений и они должны быть
+
+// Task 10
+
+// Получить массив всех умений всех пользователей (поле skills), при этом не должно быть
+// повторяющихся умений и они должны быть отсортированы в алфавитном порядке.
+// const getSortedUniqueSkills = users => {
+//   return users
+//     .flatMap(user => user.skills)
+//     .filter((skill, idx, arr) => {
+//       return arr.indexOf(skill) === idx;
+//     })
+//     .sort();
+// };
+
+// console.log(getSortedUniqueSkills(usersArr));
+// [ 'adipisicing', 'amet', 'anim', 'commodo', 'culpa', 'elit', 'ex', 'ipsum', 'irure', 'laborum', 'lorem', 'mollit', 'non', 'nostrud', 'nulla', 'proident', 'tempor', 'velit', 'veniam' ]
+// / Task 13
+
+// Дополни функцию getTotalBalanceByGender(users, gender, maxAge) так, чтобы она возвращала
+// общий баланс пользователей (свойство balance), пол которых
+// (свойство gender) совпадает со значением параметра gender и возраст которых меньше, чем maxAge.
+
+// const getTotalBalanceByGender = (users, gender, maxAge) => {
+//   return users.reduce((acc, user) => {
+//     if (user.gender === gender && user.age < maxAge) {
+//       acc += user.balance;
+//     }
+//     return acc;
+//   }, 0);
+// };
+// console.log(getTotalBalanceByGender(usersArr, 'male', 35));
