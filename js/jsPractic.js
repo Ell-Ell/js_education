@@ -93,8 +93,8 @@
 //     array.push(arr[i] + arr[i + 1]);
 //   }
 //   return array;
-//
-import users from './data.js';
+// //
+// import users from './data.js';
 // // Получить массив имен пользователей по полу (поле gender)
 // console.log(users);
 // const getUsersWithGender = (users, gender) => {
