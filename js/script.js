@@ -21,3 +21,4 @@
 //     default: result = "хз"    
 // }
 // console.log(result);
+
