@@ -20,4 +20,22 @@
 //         break;
 //     default: result = "хз"
 // }
+// console.log(result)
+
+// switch (+num) {
+//     case 1:
+//         result = "зима";
+//         break;
+//      case 2:
+//         result = "весна";
+//         break;
+//      case 3:
+//         result = "осень";
+//         break;
+//      case 4:
+//         result = "лето";
+//         break;
+//     default: result = "хз"
+// }
 // console.log(result);
+
