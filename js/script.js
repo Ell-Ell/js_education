@@ -20,7 +20,7 @@
 //         break;
 //     default: result = "хз"
 // }
-// console.log(result);
+// console.log(result)
 
 // switch (+num) {
 //     case 1:
@@ -38,3 +38,4 @@
 //     default: result = "хз"
 // }
 // console.log(result);
+
