@@ -8,10 +8,3 @@ const debounceTest = function (timeout) {
 debounceTest();
 debounceTest();
 debounceTest();
-// const f = () => console.log(1);
-
-// const _f = deb(f, 100);
-
-// _f();
-// _f();
-// _f();
